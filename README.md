@@ -4,7 +4,7 @@
 
 # Loïc Martin, student at [BeCode](https://becode.org/fr/)
 
-## Mon [site](https://gigithegiraffe.github.io/)
+## Mon [**site**](https://gigithegiraffe.github.io/)!
 
 ---
 
