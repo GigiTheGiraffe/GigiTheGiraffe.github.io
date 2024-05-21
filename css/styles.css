@@ -55,6 +55,12 @@ main > .tagline {
 	font-weight: 100;
 }
 
+main > .presentation {
+	font-size: 2rem;
+	margin: 1.5rem 0;
+	font-weight: 200;
+}
+
 .icons-social i {
 	padding: 10px;
 }
