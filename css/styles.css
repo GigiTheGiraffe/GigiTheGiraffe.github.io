@@ -34,13 +34,27 @@ a:hover {color: whitesmoke};
 
 .icons-social i {
 	font-size: 3em;
+	border: solid 3px;
+	border-color: white;
+	border-radius: 1000px;
+	margin: 10px;
+	transition: border-color 0.2s;
 }
 
 .icons-social a {
 	color: #fff;
+	transition: color 0.2s;
 }
+
+.icons-social a:hover i {
+    border-color: #473751;
+}
+
 .icons-social a:hover {
+	border-color: #473751;
 	color: #473751;
+	transition: border-color 0.2s;
+	transition: color 0.2s;
 }
 
 .icons-social a svg path{
