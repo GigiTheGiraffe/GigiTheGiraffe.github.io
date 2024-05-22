@@ -4,6 +4,10 @@ html {
 	font-family: 'Roboto', sans-serif;
 }
 
+a:link, a:visited, a:active {color: black;}
+
+a:hover {color: whitesmoke}; 
+
 @media (min-width: 576px) {
 	html {
 		font-size: 14px;
@@ -30,6 +34,17 @@ html {
 
 .icons-social i {
 	font-size: 3em;
+}
+
+.icons-social a {
+	color: #fff;
+}
+.icons-social a:hover {
+	color: #473751;
+}
+
+.icons-social a svg path{
+	fill: #fff;
 }
 
 /* Custom Styles */
@@ -70,8 +85,21 @@ main > .tagline {
 
 main > .presentation {
 	font-size: 2rem;
-	margin: 1.5rem 0;
 	font-weight: 200;
+	border: medium solid darkslategrey;
+	border-radius: 400px;
+	background-color: hsla(276, 32%, 31%, 0.9);
+	width: 500px;
+	height: auto;
+	margin: 30px auto;
+	padding: 10px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.presentation:hover, .presentation:hover a {
+	background-color: hsla(276, 32%, 40%, 0.9);
+	color: whitesmoke;
 }
 
 .icons-social i {
